@@ -1,12 +1,12 @@
 .html {
-    background-color: #0f1115;
-    overscroll-behavior: none;
-    overflow-x: hidden;
+    background-color: #0d0f12;
+    overscroll-behavior-y: none;
 }
 body {
-    background-color: #0f1115;
+    background-color: #0d0f12;
     margin: 0;
     font-family: 'Roboto Slab', serif;
+    padding: 0;
     background-color: #0D0E12;
 }
 
