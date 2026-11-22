@@ -1,0 +1,137 @@
+.WelcomePart {
+
+    background-color: #161B22;
+    padding: 25px 35px;
+    max-width: 1150px;
+    width: 90%;
+    margin: 25px auto;
+    box-sizing: border-box;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1.5px;
+
+    border-radius: 8px;
+    text-align:center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.WelcomePart h1 {
+    text-align: center;
+    color: #F0F6FC;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+}
+
+.WelcomePart h3 {
+    text-align: left;
+    color: #F0F6FC;
+    font-size: 16px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.WelcomePart p {
+    text-align: left;
+    color: #8B949E;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+.first-row {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;   
+    gap: 80px;              
+    max-width: 1670px;
+    width: 90%;
+    margin: 25px auto;
+}
+
+.SlideShowWorks {
+    flex: 1;                  
+    background-color: #161B22;
+    border-radius: 8px;
+    padding: 25px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.slideshow-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    width: 100%;
+}
+
+.slideshow-container img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    border-radius: 6px;
+    
+    opacity: 1;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.slideshow-container img.fade-out {
+    opacity: 0;
+}
+
+.slideshow-buttons {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    justify-content: center;
+}
+
+.slideshow-buttons button {
+    background-color: #A61C1C;
+    color: #8B949E;
+    border: 1px solid #D92626;
+    padding: 6px 35px;     
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.slideshow-buttons button:hover {
+    background-color: #D92626;     
+    box-shadow: 0 0 12px rgba(217, 38, 38, 0.5); 
+    transform: translateY(-2px);
+
+}
+
+.slideshow-buttons button:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.RightCard {
+    flex: 1.2;              
+    background-color: #161B22;
+    border-radius: 8px;
+    padding: 25px 30px;
+    box-sizing: border-box;
+    color: #8B949E;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1.5px;
+}
+
+.RightCard h2, h3 {
+    color: #F0F6FC;
+}
+
+@media (max-width: 768px) {
+    .first-row {
+        flex-direction: column; 
+    }
+}

@@ -1,0 +1,45 @@
+.section {
+    display: flex;
+    flex-direction: row;
+    background-color: #161B22;
+    max-width: 1000px;
+    width: 90%;
+    justify-content: center;
+    margin: 40px auto;
+    color:aliceblue;
+    gap: 25px;
+    border-radius: 8px;
+    padding: 30px;
+    box-sizing: border-box;
+
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2.0px;
+}
+
+.profile-card {
+    position: relative;
+    flex: 1;
+    border-radius: 8px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border: 1px solid #30363D;
+    margin: 0;
+    background-color: #0D0E12
+}
+
+
+#discord-profile {
+    position: absolute;
+    top: 8px;
+    right: 25px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column;
+    }
+}
