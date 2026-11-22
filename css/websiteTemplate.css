@@ -1,4 +1,10 @@
+.html {
+    background-color: #0f1115;
+    overscroll-behavior: none;
+    overflow-x: hidden;
+}
 body {
+    background-color: #0f1115;
     margin: 0;
     font-family: 'Roboto Slab', serif;
     background-color: #0D0E12;
